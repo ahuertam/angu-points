@@ -1,5 +1,7 @@
 # angu-points
 
+This is a Damage Counter for Magic the gathering card game with dice and flip coin functionality
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
 
 ## Development server
