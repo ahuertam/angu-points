@@ -1,0 +1,7 @@
+<div class="timer">{{minutes}}:{{seconds}}</div>
+<button (click)="restartCounter()">⏮</button>
+<button  *ngIf="startStopCheck" (click)="startTimer()">▶️</button>
+<button  *ngIf="!startStopCheck" (click)="stopCounter()">⏸</button>
+<br>
+<br>
+<br>

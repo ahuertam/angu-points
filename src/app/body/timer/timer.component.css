@@ -1,0 +1,9 @@
+div {
+  font-size: 4em;
+}
+.timer{
+margin: 0px 0px 0px 30%;
+padding: 0px 0px 0px 0px;
+background-color: #878684;
+display: inline-block;
+}

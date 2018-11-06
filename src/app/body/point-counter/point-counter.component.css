@@ -1,0 +1,26 @@
+app-progress-bar{
+  width: 90%;
+}
+input{
+ border: 1px solid #000000;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+    width: 40px;
+    height: 40px;
+    font-size: 2em;
+    padding-left: 3px;
+}
+.roundButton {
+  font-size: 1.5em;
+  border-radius: 50%;
+  border-style: none;
+  width: 40px;
+  height: 40px;
+}
+.red{
+  background-color: red;
+}
+.green{
+  background-color: green;
+}
+button:focus {outline:none;}

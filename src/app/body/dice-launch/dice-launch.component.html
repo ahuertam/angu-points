@@ -1,0 +1,11 @@
+<div *ngIf="dice">
+	<div [ngSwitch]="diceResult">
+		<div *ngSwitchCase="1" class="dice dice-1"> <b></b> </div>
+		<div *ngSwitchCase="2" class="dice dice-2"> <b></b> </div>
+		<div *ngSwitchCase="3" class="dice dice-3"><b></b> </div>
+		<div *ngSwitchCase="4" class="dice dice-4"> <b></b> </div>
+		<div *ngSwitchCase="5" class="dice dice-5"> <b></b> </div>
+		<div *ngSwitchCase="6" class="dice dice-6"> <b></b> </div>
+		<div *ngSwitchDefault>ERROR </div>
+	</div>
+</div>

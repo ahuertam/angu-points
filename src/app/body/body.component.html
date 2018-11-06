@@ -1,0 +1,40 @@
+<div class="wall1">
+    <app-timer></app-timer>
+
+    <input type="text" name="player1" placeholder="Player1">
+    <br>
+    <app-point-counter [init]="lifeProgress"></app-point-counter>
+
+    _________________________________________________________
+    <br>
+    <input type="text" name="player1" placeholder="Player2">
+    <br>
+    <app-point-counter [init]="lifeProgress"></app-point-counter>
+    ______________________________________________________
+    <br>
+    <button (click)="throwACoin()"> Throw a Coin</button>
+    <!--<input value ="{{diceNumber}}">-->
+    <button (click)="roll1d6(diceNumber)"> Roll a Dice</button>
+    <div *ngIf="dice">
+        <div [ngSwitch]="diceResult">
+            <div *ngSwitchCase="1" class="dice dice-1"> <b></b> </div>
+            <div *ngSwitchCase="2" class="dice dice-2"> <b></b> </div>
+            <div *ngSwitchCase="3" class="dice dice-3"><b></b> </div>
+            <div *ngSwitchCase="4" class="dice dice-4"> <b></b> </div>
+            <div *ngSwitchCase="5" class="dice dice-5"> <b></b> </div>
+            <div *ngSwitchCase="6" class="dice dice-6"> <b></b> </div>
+            <div *ngSwitchDefault>ERROR </div>
+        </div>
+    </div>
+    <div *ngIf="coin">
+        <div [ngSwitch]="coinResult">
+            <div *ngSwitchCase="'heads'" class="heads">
+                <p class="contentEmoji">😎</p>
+            </div>
+            <div *ngSwitchCase="'tails'" class="tails">
+                <p class="contentEmoji">✖️</p>
+            </div>
+            <div *ngSwitchDefault>ERROR </div>
+        </div>
+    </div>
+</div>

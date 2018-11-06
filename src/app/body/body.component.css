@@ -1,0 +1,37 @@
+app-progress-bar {
+    width: 90%;
+}
+
+.heads {
+    border: 1px solid #CA5D3E;
+    border-radius: 50%;
+    background: #F0CD73;
+    width: 70px;
+    height: 70px;
+    margin: 25px 0px 0px 47px;
+    box-shadow: 0px 0px 3px 0px #989898;
+    text-align: center;
+}
+
+.tails {
+    border: 1px solid #CA5D3E;
+    border-radius: 50%;
+    background: #F0CD73;
+    width: 70px;
+    height: 70px;
+    margin: 25px 0px 0px 47px;
+    box-shadow: 0px 0px 3px 0px #989898;
+    text-align: center;
+}
+
+.contentEmoji {
+    margin: -4px 1px 1px 1px;
+    font-size: 58px;
+}
+
+input {
+    font-size: 3em;
+    border: none;
+    background: none;
+    font-style: bolder;
+}
